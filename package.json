@@ -1,0 +1,26 @@
+{
+  "name": "translate",
+  "version": "1.0.0",
+  "description": "translate for command",
+  "main": "index.js",
+  "scripts": {
+    "test": "translate"
+  },
+  "bin": {
+    "translate": "./index.js"
+  },
+  "keywords": [
+    "translate"
+  ],
+  "author": "qsm",
+  "license": "MIT",
+  "dependencies": {
+    "cli-table2": "^0.2.0",
+    "commander": "^2.9.0",
+    "superagent": "^3.5.2"
+  },
+  "repository": {
+      "type": "git",    
+      "url": "git@github.com:qiansimin88/translate-command.git"
+  }
+}
